@@ -113,4 +113,28 @@ footer p{
     text-align: center;
     font-size: 15px;
     font-family: 'Times New Roman';
+    margin-top: 10px ;
+
+}
+
+/* media query */
+
+@media only screen and (max-width: 768px) {
+    .partTwo ul {
+        flex-direction: row; 
+        justify-content: center;
+    }
+
+    .partTwo li {
+        margin: 0 15px; 
+    }
+
+    #carouselPart {
+        flex-direction: row; 
+        text-align: left; 
+    }
+
+    .carouselPartOne {
+        max-width: 50%; /
+    }
 }
