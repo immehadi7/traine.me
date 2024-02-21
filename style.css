@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    width: 100%;
+}
+header {
+    background-color: transparent !important; 
+    padding: 10px; 
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Align items vertically in the center */
+    
+}
+
+.partOne ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.partOne a {
+    text-decoration: none;
+    color: rgb(107, 156, 245); /* Set the color of the text */
+    font-weight: bold; /* Add bold font */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 15px;
+}
+
+.partTwo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the list items horizontally */
+}
+
+.partTwo li {
+    margin-left: 15px; /* Adjust spacing between items */
+}
+
+.partTwo a {
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    font-weight: bold; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 15px; 
+
+}
+.partTwo ul li a span{
+    color: grey;
+}
+
+#carouselPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carouselPartOne {
+    max-width: 600px;
+    padding: 20px;
+}
+.carouselPartOne h2{
+    font-family:"Mulish";
+    font-size: 25px ;
+    font-weight: 400;
+}
+.carouselPartOne h2 span{
+    color: rgb(107, 156, 245);
+}
+.carouselPartOne p{
+    font-family:"Open  Sans";
+    color: rgb(100, 100, 100);
+    padding: 10px 0px;
+}
+.carouselPartTwo img {
+    max-width: 100%; 
+   
+}
+
+.carouselPartOne button {
+    margin-top: 20px; 
+    padding : 10px 10px;
+    font-size: 12px; 
+    font-weight: bold;
+    font-style: italic ;
+    color: rgb(241, 241, 241);
+    background-color: rgb(119, 236, 182) ;
+    border: 1px solid rgba(206, 203, 203, 0.6) ;
+    
+    cursor: pointer;
+}
+
+/* Add hover effect for the button */
+.carouselPartOne button:hover {
+    background-color: #45a049; 
+}
+
+/* footer  */
+footer p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}
